@@ -45,6 +45,7 @@ router.get('/:id', (req, res) => {
         through: Vote,
         as: 'voted_posts'
       }
+      
     ]
   })
     .then(dbUserData => {
